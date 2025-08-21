@@ -10,7 +10,9 @@ app.use(cors({
         'http://localhost:3000',
         'https://temp-mail-pro-frontend.vercel.app',
         'https://your-custom-domain.com'
-    ]
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
 }));
 
 
