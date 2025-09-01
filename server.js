@@ -9,7 +9,8 @@ const app = express();
 const allowedOrigins = [
     'http://localhost:3000',
     'https://temp-mail-pro-frontend.vercel.app',
-    'https://tempmailpk.vercel.app' // ✅ Added your new Vercel domain
+    'https://tempmailpk.vercel.app',
+    'https://tempmailpk.com'// ✅ Added your new Vercel domain
 ];
 
 app.use(cors({
